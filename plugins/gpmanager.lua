@@ -5,7 +5,7 @@ do
 local function create_group(msg)
     -- superuser and admins only (because sudo are always has privilege)
     if not is_admin(msg) then
-        return " return " برای ساخت گروه انتی اسپم به گروه زیر رفته و سفارش دهید 🔽\nhttps://telegram.me/joinchat/B4ghtgIvpYna4yFu9JpmIQ "
+        return " return " برای ساخت گروه ضد اسپم به ایدی زیر مراجعه کنید  @Bad_bo0y
     end
     local group_creator = msg.from.print_name
     create_group_chat (group_creator, group_name, ok_cb, false)
